@@ -33,13 +33,3 @@ function redirect(string $url)
     <?php
     die;
 }
-
-/*
-use Kreait\Firebase\Factory;
-
-//$factory = (new Factory())->withDatabaseUri('https://teste-d2153-firebaseio.com');
-$factory = (new Factory())->withServiceAccount(ROOT.'secretkey/teste-d2153-credentials.json');
-
-$database = $factory->createDatabase();
-$reference = $database->getReference('things');
-echo $reference->getKey() .': ' .$reference->getValue(); */

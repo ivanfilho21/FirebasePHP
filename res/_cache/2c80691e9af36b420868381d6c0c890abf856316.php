@@ -1,3 +1,6 @@
+<?php $__env->startPush('head-styles'); ?>
+    <link rel="stylesheet" href="<?php echo e(URL); ?>res/css/style.css">
+<?php $__env->stopPush(); ?>
 <?php $__env->startSection('body'); ?>
     <header></header>
 

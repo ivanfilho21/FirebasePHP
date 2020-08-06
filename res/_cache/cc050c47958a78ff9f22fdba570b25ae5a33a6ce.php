@@ -5,6 +5,7 @@
 <?php $__env->stopPush(); ?>
 
 <?php $__env->startSection('main-content'); ?>
+	<?php require ROOT.'App/scripts/listar-produtos.php' ?>
     <div class="actionBar">
 		<h1>MyApp</h1>
 	</div>
